@@ -439,11 +439,38 @@ h5
 }
 .article-blog-cover
 {
+    position: relative;
     width: 230px;
     height: auto;
     object-fit: cover;
-    border-radius: 8px 0 0 8px;
+    animation: position-cover 15s infinite ease-in-out;
 }
+@keyframes position-cover
+{
+    0%{
+        top: -10px;
+        left: 0;
+        rotate: 5deg;
+    } 
+    25%{
+        left: -5px;
+    } 
+    50%{
+        top: 20px;
+
+        rotate: -15deg;
+    }
+    75%{
+        left: 10px;
+    }
+    100%{
+        top: -10px;
+        left: 0;
+        rotate: 5deg;
+    }
+}
+
+
 .article-blog-info-container
 {
     display: flex;
