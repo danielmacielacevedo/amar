@@ -29,11 +29,11 @@ html::-webkit-scrollbar
 }
 html::-webkit-scrollbar-thumb
 {
-    background-color: #232323;
+    background-color: #C6A49A;
 }
 html::-webkit-scrollbar-track
 {
-    background-color: #131313;
+    background-color: #ffe3ea;
 }
 
 
@@ -570,8 +570,7 @@ h5
     margin: 20px 0 0 0;
     padding: 0 20px 2.4px 20px;
     border-radius: 6px;
-    /* background: var(--color2); */
-    background: linear-gradient(to right, #C6A49A, #FFDCE5, #FFBACB, #571A30);
+    background: linear-gradient(to right, #C6A49A, #FFDCE5, #FFBACB, #FFDCE5, #C6A49A);
     background-size: 500% 500%;
     animation: animate-background 10s infinite ease-in-out;
     font-size: 14px;
@@ -613,6 +612,28 @@ h5
 .article-project a 
 {
     height: auto;
+}
+.more-button img
+{
+    opacity: .20;
+    margin-bottom: -2.6px;
+}
+.background-more-button
+{
+    position: relative;
+    background: linear-gradient(to right, #262626, #7a6a6a);
+    background-size: 500% 500%;
+    animation: animate-background 10s infinite ease-in-out;
+    border-radius: 8px;
+}
+.background-more-button span
+{
+    position: absolute;
+    top: 60px;
+    right: 36px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--white);
 }
 .article-project-cover
 {
@@ -897,7 +918,7 @@ h5
     height: 230px;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #C6A49A, #FFDCE5, #FFBACB, #571A30);
+    background: linear-gradient(to right, #C6A49A, #FFDCE5, #FFBACB, #FFDCE5, #C6A49A);
     background-size: 500% 500%;
     animation: animate-background 10s infinite ease-in-out;
 }
@@ -1061,6 +1082,10 @@ h5
     {
         max-width: 100%;
     }
+    .right-section
+    {
+        max-width: 100%;
+    }
 
     /* product title */
     .featured-product-title
@@ -1141,6 +1166,17 @@ h5
         border-radius: 0;
         margin-bottom: -2.6px;
     }
+    .background-more-button
+    {
+        border-radius: 0;
+    }
+    .background-more-button span
+    {
+        top: 68px;
+        right: 42px;
+    }
+
+
     .interactive-data
     {
         flex-direction: column;
