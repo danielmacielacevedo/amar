@@ -1076,6 +1076,7 @@ h5
     {
         align-items: center;
         justify-content: center;
+        margin-bottom: -8px;
     }
 
     .left-section
@@ -1172,8 +1173,8 @@ h5
     }
     .background-more-button span
     {
-        top: 68px;
-        right: 42px;
+        top: 42.8%;
+        right: 26%;
     }
 
 
