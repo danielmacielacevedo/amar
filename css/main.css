@@ -39,7 +39,7 @@ html::-webkit-scrollbar-track
 
 body
 {
-    min-width: 400px;
+    min-width: 320px;
     background: var(--white);
     color: var(--grey);
     font-family: 'Helvetica', sans-serif;
@@ -204,7 +204,7 @@ h5
     font-weight: 700;
     line-height: 80px;
     text-decoration: none;
-    color: var(--dark);
+    color: var(--color);
 }
 .menu-mobile-social-media
 {
@@ -421,6 +421,10 @@ h5
 {
     max-width: 60%;
 }
+/* .right-section
+{
+    width: 100%;
+} */
 
 /* article blog */
 
@@ -434,7 +438,7 @@ h5
     display: flex;
     width: 100%;
     height: auto;
-    margin: -50px 0 30px 0;
+    margin: -76.2px 0 30px 0;
     background-color: red∫;
     border-radius: 10px 8px 8px 10px;
 }
@@ -450,7 +454,7 @@ h5
 @keyframes position-cover
 {
     0%{
-        top: -3px;
+        top: 30px;
         left: 25px;
         rotate: 5deg;
     } 
@@ -465,7 +469,7 @@ h5
         left: 35px;
     }
     100%{
-        top: -3px;
+        top: 30px;
         left: 25px;
         rotate: 5deg;
     }
@@ -559,10 +563,10 @@ h5
 .primary-buttons-article a
 {
     display: flex;
-    width: 100%;
+    width: 60%;
     min-width: 64px;
     height: 40px;
-    margin: 20px 0 0 auto;
+    margin: 20px 0 0 0;
     padding: 0 20px 2.4px 20px;
     border-radius: 6px;
     /* background: var(--color2); */
