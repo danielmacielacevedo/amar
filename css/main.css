@@ -39,6 +39,7 @@ html::-webkit-scrollbar-track
 
 body
 {
+    width: 100%;
     min-width: 320px;
     background: var(--white);
     color: var(--grey);
