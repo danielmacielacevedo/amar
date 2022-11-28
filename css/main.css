@@ -501,7 +501,7 @@ h5
 {
     position: absolute;
     z-index: -2;
-    top: 250px;
+    top: 200px;
     left: 340px;
     font-size: 70px;
     font-weight: 600;
@@ -556,6 +556,28 @@ h5
     font-weight: 700;
     padding-bottom: 4px;
 }
+
+.featured-product-price
+{
+    display: flex;
+    align-items: center;
+    margin: 14px 0 14px 0;
+}
+.featured-product-price span:nth-child(1)
+{
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--grey);
+}
+.featured-product-price span:nth-child(2)
+{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 0 10px;
+    text-decoration: line-through;
+    color: grey;
+}
+
 .primary-buttons-article
 {
     display: flex;
@@ -567,7 +589,7 @@ h5
     width: 60%;
     min-width: 64px;
     height: 40px;
-    margin: 20px 0 0 0;
+    margin: 8px 0 0 0;
     padding: 0 20px 2.4px 20px;
     border-radius: 6px;
     background: linear-gradient(to right, #C6A49A, #FFDCE5, #FFBACB, #FFDCE5, #C6A49A);
@@ -1175,6 +1197,13 @@ h5
     {
         top: 42.8%;
         right: 26%;
+        font-size: 4vw;
+    }
+
+
+    .featured-product-price
+    {
+        justify-content: center;
     }
 
 
@@ -1197,7 +1226,7 @@ h5
     .secondary-buttons-article a
     {
         width: 100%;
-        margin: 20px 0 0 0;
+        margin: 14px 0 0 0;
     }
 
     .pinned-projects
