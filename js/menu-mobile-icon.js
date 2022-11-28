@@ -18,16 +18,7 @@ menuButton.addEventListener('click', () =>
     }
 });
 
-const menuProjects = document.querySelector('.mobile-projects');
-
-menuProjects.addEventListener('click', () => 
-{
-        menuButton.classList.remove('open');
-        menuContent.classList.remove('open');
-        menuOpen = false;
-});
-
-const menuHome = document.querySelector('.mobile-home');
+const menuHome = document.querySelector('.mobile-inicio');
 
 menuHome.addEventListener('click', () => 
 {
