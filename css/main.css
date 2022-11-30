@@ -514,8 +514,6 @@ h5
 .primary-buttons-article a
 {
     display: flex;
-    width: 60%;
-    min-width: 64px;
     height: 40px;
     margin: 8px 0 0 0;
     padding: 0 20px 2.4px 20px;
@@ -531,12 +529,10 @@ h5
     align-items: center;
     justify-content: center;
 }
-.primary-buttons-article a:nth-child(2)
+.button-b1
 {
-    margin-left: 20px;
-    border: 2px solid var(--white);
-    background: transparent;
-    color: var(--white);
+    width: 60%;
+    min-width: 64px;
 }
 
 
@@ -884,6 +880,43 @@ h5
     100%{
         background-position: 0 50%;
     }
+}
+
+.more-details-container
+{
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+}
+.more-details-container div
+{
+    width: 90%;
+    justify-content: center;
+    text-align: center;
+}
+.more-details-container div span
+{
+    font-size: 14px;
+}
+.button-b2
+{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    min-width: 64px;
+    margin: 8px 0 0 0;
+    padding: 0 20px 2.4px 20px;
+    border-radius: 6px;
+    background: linear-gradient(to right, #C6A49A, #FFDCE5, #FFBACB, #FFDCE5, #C6A49A);
+    background-size: 500% 500%;
+    animation: animate-background 10s infinite ease-in-out;
+    font-size: 14px;
+    color: var(--white);
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 /* footer */
@@ -1253,6 +1286,11 @@ h5
     }
     
 
+    .footer-background h3
+    {
+        margin-top: 16px;
+        text-align: center;
+    }
     .footer-links
     {
         justify-content: space-between;
