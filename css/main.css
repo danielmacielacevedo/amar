@@ -644,65 +644,6 @@ h5
     padding: 5px;
 }
 
-/* individual percentage */
-#danielmacielacevedo-com span:nth-child(1)
-{
-    width: 37.3%;
-    background-color: #131313;
-    border-radius: 4px 0 0 4px;
-}
-#danielmacielacevedo-com span:nth-child(2)
-{
-    width: 50.5%;
-    background-color: #232323;
-    border-radius: 0 0 0 0;
-}
-#danielmacielacevedo-com span:nth-child(3)
-{
-    width: 12.2%;
-    background-color: #333333;
-    border-radius: 0 4px 4px 0;
-}
-
-#netflix-clone span:nth-child(1)
-{
-    width: 86.6%;
-    background-color: var(--html-color);
-    border-radius: 4px 0 0 4px;
-}
-#netflix-clone span:nth-child(2)
-{
-    width: 13.5%;
-    background-color: var(--css-color);
-    border-radius: 0 4px 4px 0;
-}
-
-#batabit-crypto span:nth-child(1)
-{
-    width: 41.1%;
-    background-color: var(--html-color);
-    border-radius: 4px 0 0 4px;
-}
-#batabit-crypto span:nth-child(2)
-{
-    width: 58.9%;
-    background-color: var(--css-color);
-    border-radius: 0 4px 4px 0;
-}
-
-#youtube-clone span:nth-child(1)
-{
-    width: 80.5%;
-    background-color: var(--html-color);
-    border-radius: 4px 0 0 4px;
-}
-#youtube-clone span:nth-child(2)
-{
-    width: 19.5%;
-    background-color: var(--css-color);
-    border-radius: 0 4px 4px 0;
-}
-
 
 
 .interactive-data
