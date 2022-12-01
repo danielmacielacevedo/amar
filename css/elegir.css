@@ -471,7 +471,11 @@ h5
     }
 
     /* main container */
-    
+    .main-container
+    {
+        width: 100%;
+        margin-top: 62px;
+    }
 
     
     /* footer */
