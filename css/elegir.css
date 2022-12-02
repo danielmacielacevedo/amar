@@ -52,11 +52,11 @@ html::-webkit-scrollbar
 }
 html::-webkit-scrollbar-thumb
 {
-    background-color: #C6A49A;
+    background-color: var(--gradient1);
 }
 html::-webkit-scrollbar-track
 {
-    background-color: #ffe3ea;
+    background-color: var(--gradient2);
 }
 
 
