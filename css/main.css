@@ -15,6 +15,9 @@
     --gradient1: #c6a49a;
     --gradient2: #ffdce5;
     --gradient3: #ffbacb;
+
+    /* footer */
+    --copyright: #FFDCE5;
 }
 .theme
 {
@@ -31,6 +34,8 @@
     --gradient2: #ffdce580;
     --gradient3: #ffbacb80;
 
+    /* footer */
+    --copyright: #7b2e4a;
 }
 
 *
@@ -38,7 +43,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: var(--primary-color);
 }
 
 html
@@ -972,7 +976,7 @@ h5
     font-weight: 400;
     margin-top: -16px;
     text-align: right;
-    color: var(--color3);
+    color: var(--copyright);
 }
 .footer-links
 {
