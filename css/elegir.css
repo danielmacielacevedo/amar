@@ -12,9 +12,9 @@
     --white-amar: #F7F0EF;
 
     /* gradient */
-    --gradient1: #c6a49a;
-    --gradient2: #ffdce5;
-    --gradient3: #ffbacb;
+    --gradient1: #c6a49ad2;
+    --gradient2: #ffdce5d0;
+    --gradient3: #ffbacbd3;
 
     /* footer */
     --copyright: #FFDCE5;
@@ -48,7 +48,7 @@
 html
 {
     font-size: 62.5%;
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
 
 }
 
