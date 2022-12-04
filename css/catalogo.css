@@ -26,8 +26,8 @@
     --grey: rgb(255, 255, 255);
 
     /* amar palette */
-    --color2: #571A30;
-    --white-amar: rgb(7, 7, 7);
+    --color2: #000;
+    --white-amar: #000;
 
     /* gradient */
     --gradient1: #c6a49a82;
@@ -35,7 +35,7 @@
     --gradient3: #ffbacb80;
 
     /* footer */
-    --copyright: #7b2e4a;
+    --copyright: rgb(21, 21, 21);
 }
 
 *
