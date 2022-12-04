@@ -72,7 +72,6 @@ body
     background: var(--primary-color);
     color: var(--grey);
     font-family: 'Helvetica', sans-serif;
-    transition: .3s;
 }
 
 h1
@@ -130,7 +129,6 @@ h5
     background-color: var(--white-amar);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    transition: .3s;
     
 }
 .nav-full
