@@ -69,9 +69,14 @@ body
 {
     width: 100%;
     min-width: 320px;
-    background: var(--primary-color);
+    background: #000;
     color: var(--grey);
     font-family: 'Helvetica', sans-serif;
+}
+
+main
+{
+    background-color: var(--primary-color);
 }
 
 h1

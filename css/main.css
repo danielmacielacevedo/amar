@@ -70,9 +70,14 @@ body
 {
     width: 100%;
     min-width: 320px;
-    background: var(--primary-color);
+    background: #000;
     color: var(--grey);
     font-family: 'Helvetica', sans-serif;
+}
+
+main
+{
+    background-color: var(--primary-color);
 }
 
 h1
@@ -494,7 +499,7 @@ h5
 .featured-product-title
 {
     position: absolute;
-    z-index: -2;
+    /* z-index: -2; */
     top: 200px;
     /* left: 340px; */
     padding: 0 0 0 208px;
