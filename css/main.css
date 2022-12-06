@@ -532,12 +532,17 @@ h5
     width: 30%;
     align-items: center;
     margin-top: 14px;
+    cursor: pointer;
 }
 .color-data img
 {
     width: 30px;
     margin-right: 10px;
     border-radius: 50px;
+}
+.color-data:hover img
+{
+    box-shadow: 0 0 0 3px var(--grey);
 }
 .article-data img
 {
