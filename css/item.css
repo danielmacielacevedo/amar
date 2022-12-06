@@ -388,8 +388,8 @@ h5
 }
 .visual-product
 {
-    width: 280px;
-    height: 280px;
+    width: 400px;
+    height: 320px;
 }
 .visual-product img
 {
@@ -418,12 +418,17 @@ h5
     width: 30%;
     align-items: center;
     margin-top: 14px;
+    cursor: pointer;
 }
 .color-data img
 {
     width: 30px;
     margin-right: 10px;
     border-radius: 50px;
+}
+.color-data:hover img
+{
+    box-shadow: 0 0 0 3px var(--grey);
 }
 .article-data img
 {
@@ -576,6 +581,140 @@ h5
     animation: animate-background 1s infinite ease-in-out;
 }
 
+.plans-container--slider
+{
+    display: flex;
+    width: 100%;
+    height: 276px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    justify-content: center;
+}
+.product-container--slider
+{
+    display: flex;
+    width: 100%;
+    height: 330px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.plans-container-card
+{
+    position: relative;
+    scroll-snap-align: center;
+    width: 60%;
+    min-width: 180px;
+    max-width: 180px;
+    height: 180px;
+    margin: 30px 0 0 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+.product-container-card
+{
+    position: relative;
+    scroll-snap-align: center;
+    width: 320px;
+    min-width: 320px;
+    max-width: 200px;
+    height: 320px;
+    margin: 30px 0 0 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+.product-container-card
+{
+    margin: 0;
+}
+.plans-container-card:nth-last-child(1)
+{
+    margin-right: 20px;
+}
+.plans-container-card a
+{
+    text-decoration: none;
+}
+.product-info-container
+{
+    height: 100%;
+    background: linear-gradient(to right, #2f2f2f7c, #121212bd);
+    background-size: 500% 500%;
+    animation: animate-background 1s infinite ease-in-out;
+}
+.plan-info-container img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.product-info-container img
+{
+    width: 100%;
+    height: 100%;
+
+}
+.plan-card-title
+{
+    padding-top: 4px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--grey);
+}
+.small-product-price
+{
+    display: flex;
+    align-items: center;
+    margin: 4px 0 0 0;
+}
+.small-product-price span:nth-child(1)
+{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--grey);
+    text-decoration: none;
+}
+.small-product-price span:nth-child(2)
+{
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 0 0 6px;
+    text-decoration: line-through;
+    color: grey;
+}
+/* .product1.none
+{
+    opacity: 0;
+    transition: .3s;
+}
+.product2.none
+{
+    opacity: 0;
+    transition: .3s;
+}
+.product3.none
+{
+    opacity: 0;
+    transition: .3s;
+} */
+.product1.none
+{
+    display: none;
+    transition: .3s;
+}
+.product2.none
+{
+    display: none;
+    transition: .3s;
+}
+.product3.none
+{
+    display: none;
+    transition: .3s;
+}
+
 
 
 /* footer */
@@ -706,11 +845,21 @@ h5
     .product
     {
         flex-direction: column;
-        padding-top: 0;
+        padding: 0 0 20px 0;
+    }
+    .visual-product
+    {
+        width: 100vw;
     }
     .details-product
     {
-        padding: 12px 0 0 0;
+        padding: 12px 20px 0 20px;
+    }
+    
+
+    .plans-container--slider
+    {
+        justify-content: start;
     }
 
     
