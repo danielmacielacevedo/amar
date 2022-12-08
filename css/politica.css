@@ -368,7 +368,7 @@ h5
 {
     font-size: 50px;
     font-weight: 600;
-    color: var(--primary-color);
+    color: white;
 }
 .madewithlove-container span
 {
@@ -383,9 +383,9 @@ h5
     height: 100px;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, var(--gradient1), var(--gradient2), var(--gradient3), var(--gradient2), var(--gradient1));
+    background: linear-gradient(to right, #2f2f2f7c, #121212bd);
     background-size: 500% 500%;
-    animation: animate-background 10s infinite ease-in-out;
+    animation: animate-background 1s infinite ease-in-out;
 }
 @keyframes animate-background
 {
@@ -428,11 +428,11 @@ h5
     margin: 8px 0 0 0;
     padding: 0 20px 2.4px 20px;
     border-radius: 6px;
-    background: linear-gradient(to right, var(--gradient1), var(--gradient2), var(--gradient3), var(--gradient2), var(--gradient1));
+    background: linear-gradient(to right, #2f2f2f7c, #121212bd);
     background-size: 500% 500%;
-    animation: animate-background 10s infinite ease-in-out;
+    animation: animate-background 1s infinite ease-in-out;
     font-size: 14px;
-    color: var(--primary-color);
+    color: white;
     font-weight: 600;
     text-decoration: none;
     text-align: center;
