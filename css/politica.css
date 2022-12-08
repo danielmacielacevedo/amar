@@ -3,6 +3,7 @@
     --primary-color: #ffffff;
     --dark: #000000;
     --grey: rgb(90, 90, 90);
+    --background-secondary: #ffffff;
 
     /* amar palette */
     --high: #571A30;
@@ -24,6 +25,7 @@
     --primary-color: #000;
     --secondary-color: #fff;
     --grey: rgb(255, 255, 255);
+    --background-secondary: #0a0a0a;
 
     /* amar palette */
     --color2: #000;
@@ -406,7 +408,7 @@ h5
     justify-content: center;
     width: 100%;
     height: 80vh;
-    background-color: #0a0a0a;
+    background-color: var(--background-secondary);
     padding: 20px 20px;
 }
 .more-details-container div
@@ -457,7 +459,7 @@ h5
 .footer-container
 {
     display: flex;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     align-self: center;
     justify-content: center;
