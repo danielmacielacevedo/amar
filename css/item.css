@@ -867,6 +867,10 @@ h5
 {
     background-image: url("../assets/f_logo_RGB_white.png");
 }
+.footer-social-media li:nth-child(3) span
+{
+    background-image: url("../assets/a_logo_320px.png");
+}
 
 
 @media only screen and (max-width: 860px)
