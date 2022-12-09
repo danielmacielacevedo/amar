@@ -3,13 +3,15 @@
     --primary-color: #ffffff;
     --dark: #000000;
     --grey: rgb(90, 90, 90);
+    --focusIn: #F7F0EF;
+    --focusOut: #d1d1d1bd;
 
     /* amar palette */
     --high: #571A30;
     --color: #C6A49A;
     --color2: #FFBACB;
     --color3: #FFDCE5;
-    --white-amar: #F7F0EF;
+    --white-amar: F7F0EF#;
 
     /* gradient */
     --gradient1: #c6a49ad2;
@@ -24,6 +26,8 @@
     --primary-color: #000;
     --secondary-color: #fff;
     --grey: rgb(255, 255, 255);
+    --focusIn: #2f2f2f7c;
+    --focusOut: #121212bd;
 
     /* amar palette */
     --color2: #000;
@@ -385,6 +389,7 @@ h5
 }
 .details-product
 {
+    max-width: 400px;
     padding-left: 20px;
 }
 .visual-product
@@ -401,13 +406,16 @@ h5
     display: flex;
     flex-direction: column;
     height: 100%;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 .style-selector
 {
     display: flex;
     /* justify-content: center; */
     margin-bottom: 12px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
 }
 
 /* new code */
@@ -419,7 +427,6 @@ h5
     width: 30%;
     align-items: center;
     margin-top: 14px;
-    cursor: pointer;
 }
 .color-data img
 {
@@ -427,9 +434,15 @@ h5
     margin-right: 10px;
     border-radius: 50px;
 }
-.color-data:hover img
+.color-container-card
 {
-    box-shadow: 0 0 0 3px var(--grey);
+    cursor: pointer;
+}
+.color-container-card:hover img
+{
+    /* box-shadow: 0 0 0 3px var(--grey); */
+    outline: 4px solid var(--grey);
+    outline-offset: -4px;
 }
 .article-data img
 {
@@ -457,7 +470,7 @@ h5
 }
 .featured-product-price span:nth-child(1)
 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
     color: var(--grey);
 }
@@ -468,6 +481,39 @@ h5
     margin: 0 0 0 10px;
     text-decoration: line-through;
     color: grey;
+}
+.ckeck-product
+{
+    display: flex;
+    margin: auto;
+    height: auto;
+    margin-bottom: 10px;
+}
+.time-icon,
+.valid-icon
+{
+    display: flex;
+}
+.time-icon span,
+.valid-icon span
+{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: var(--grey);
+    margin-right: 10px;
+}
+.timeIcon
+{
+    width: 20px;
+    height: 20px;
+    background-image: url(../assets/SVG/time.svg);
+}
+.validIcon
+{
+    width: 20px;
+    height: 20px;
+    background-image: url(../assets/SVG/valid.svg);
 }
 
 .whatsapp-button span
@@ -560,7 +606,7 @@ h5
     display: flex;
     width: 100%;
     opacity: .5;
-    background: linear-gradient(to right, #2f2f2f, #111111);
+    background: linear-gradient(to right, var(--focusIn), var(--focusOut));
     background-size: 500% 500%;
     animation: animate-background 4s infinite ease-in-out;
 }
@@ -606,8 +652,19 @@ h5
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
 }
+.color-container--slider
+{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    /* scroll-snap-type: x proximity; */
+}
 .product-container--slider::-webkit-scrollbar,
-.plans-container--slider::-webkit-scrollbar
+.plans-container--slider::-webkit-scrollbar,
+.color-container--slider::-webkit-scrollbar
 {
     display: none; /* Chrome, Safari and Opera */
     -ms-overflow-style: none;  /* IE and Edge */
@@ -637,6 +694,19 @@ h5
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
+.color-container-card
+{
+    display: flex;
+    position: relative;
+    scroll-snap-align: center;
+    width: auto;
+    /* min-width: 320px; */
+    max-width: 200px;
+    height: auto;
+    margin: 0 10px 0 0;
+    align-items: center;
+    border-radius: 8px;
+}
 .product-container-card
 {
     margin: 0;
@@ -652,7 +722,7 @@ h5
 .product-info-container
 {
     height: 100%;
-    background: linear-gradient(to right, #2f2f2f7c, #121212bd);
+    background: linear-gradient(to right, var(--focusIn), var(--focusOut));
     background-size: 500% 500%;
     animation: animate-background 1s infinite ease-in-out;
 }
@@ -712,6 +782,66 @@ h5
     display: none;
     transition: .3s;
 }
+.product4.none
+{
+    display: none;
+    transition: .3s;
+}
+.product5.none
+{
+    display: none;
+    transition: .3s;
+}
+.product6.none
+{
+    display: none;
+    transition: .3s;
+}
+.product7.none
+{
+    display: none;
+    transition: .3s;
+}
+.product8.none
+{
+    display: none;
+    transition: .3s;
+}
+
+.more-product-details
+{
+    display: flex;
+    width: 100%;
+    max-width: 840px;
+    color: var(--grey);
+    padding: 28px 20px 20px 20px;
+    justify-content: center;
+}
+.more-product-detail
+{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to right, var(--focusIn), var(--focusOut));
+    background-size: 500% 500%;
+    animation: animate-background 1s infinite ease-in-out;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+.more-product-detail h3
+{
+    margin: 8px 0 8px 0;
+}
+.more-product-detail p
+{
+    font-size: 14px;
+    line-height: 30px;
+
+}
+.more-product-detail:nth-child(2)
+{
+    
+    margin: 0 10px;
+}
 
 
 /* section love */
@@ -731,7 +861,7 @@ h5
 {
     display: flex;
     width: 100%;
-    height: 230px;
+    height: 351px;
     justify-content: center;
     align-items: center;
     background: linear-gradient(to right, var(--gradient1), var(--gradient2), var(--gradient3), var(--gradient2), var(--gradient1));
@@ -922,7 +1052,13 @@ h5
     }
     .details-product
     {
-        padding: 12px 20px 0 20px;
+        width: 100vw;
+        max-width: none;
+        padding: 0;
+    }
+    .bottom-details
+    {
+        padding: 0 20px 0 20px;
     }
     
 
@@ -930,7 +1066,7 @@ h5
     {
         justify-content: start;
         height: 248px;
-        margin-right: 20px;
+        /* margin-right: 20px; */
     }
     .plans-container-card
     {
@@ -943,6 +1079,16 @@ h5
         margin: 30px 0 0 20px;
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+    }
+
+    .color-container--slider
+    {
+        padding: 0 30px 0 20px;
+    }
+    .details-product2 h1
+    {
+        font-size: 30px;
+        padding: 10px 0 0 20px;
     }
 
 

@@ -427,7 +427,7 @@ h5
 {
     position: absolute;
     z-index: 1;
-    width: 240px;
+    width: 256px;
     height: auto;
     object-fit: cover;
     animation: position-cover 10s infinite ease-in-out;
@@ -1214,7 +1214,7 @@ h5
     {
         position: absolute;
         z-index: 1;
-        width: 120px;
+        width: 132px;
         align-self: center;
     }
     @keyframes position-cover
