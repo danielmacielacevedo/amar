@@ -767,42 +767,50 @@ h5
     text-decoration: line-through;
     color: grey;
 }
-.product1.none
+.product1.none,
+.payment1.none
 {
     display: none;
     transition: .3s;
 }
-.product2.none
+.product2.none,
+.payment2.none
 {
     display: none;
     transition: .3s;
 }
-.product3.none
+.product3.none,
+.payment3.none
 {
     display: none;
     transition: .3s;
 }
-.product4.none
+.product4.none,
+.payment4.none
 {
     display: none;
     transition: .3s;
 }
-.product5.none
+.product5.none,
+.payment5.none
 {
     display: none;
     transition: .3s;
 }
-.product6.none
+.product6.none,
+.payment6.none
 {
     display: none;
     transition: .3s;
 }
-.product7.none
+.product7.none,
+.payment7.none
 {
     display: none;
     transition: .3s;
 }
-.product8.none
+.product8.none,
+.payment8.none
 {
     display: none;
     transition: .3s;
