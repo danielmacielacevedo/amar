@@ -424,6 +424,38 @@ h5
 {
     font-size: 14px;
 }
+
+.wpp-icon
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    background-image: url(../assets/whatsapp.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.phone-icon
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    background-image: url(../assets/iphone.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mail-icon
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    background-image: url(../assets/mail.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .button-b2
 {
     display: flex;
