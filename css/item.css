@@ -1168,6 +1168,16 @@ h5
         font-size: 30px;
         padding: 10px 20px 0 20px;
     }
+    .name-size,
+    .name-size:hover,
+    .color-data img,
+    .color-container-card:hover img
+    {
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
 
 
      /* section love */
