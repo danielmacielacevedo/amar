@@ -446,6 +446,10 @@ h5
     /* box-shadow: 0 0 0 3px var(--grey); */
     outline: 4px solid var(--grey);
     outline-offset: -4px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 
@@ -486,6 +490,10 @@ h5
 {
     outline: 4px solid var(--grey);
     outline-offset: -4px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 .article-data img
