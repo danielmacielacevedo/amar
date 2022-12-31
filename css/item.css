@@ -432,7 +432,10 @@ h5
 {
     width: 30px;
     margin-right: 10px;
-    border-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 .color-container-card
 {
@@ -465,7 +468,10 @@ h5
     width: 130px;
     height: 30px;
     flex-direction: column;
-    border-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
     align-items: center;
     outline: 1px solid var(--grey);
     outline-offset: -1px;
