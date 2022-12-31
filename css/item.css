@@ -443,9 +443,9 @@ h5
 }
 .color-container-card:hover img
 {
-    /* box-shadow: 0 0 0 3px var(--grey); */
-    outline: 4px solid var(--grey);
-    outline-offset: -4px;
+    box-shadow: 0 0 0 2px var(--grey);
+    /* outline: 4px solid var(--grey);
+    outline-offset: -4px; */
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
@@ -477,8 +477,7 @@ h5
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     align-items: center;
-    outline: 1px solid var(--grey);
-    outline-offset: -1px;
+    box-shadow: 0 0 0 1px var(--grey);
     justify-content: center;
 }
 .name-size span:nth-child(1)
@@ -488,8 +487,9 @@ h5
 }
 .name-size:hover
 {
-    outline: 4px solid var(--grey);
-    outline-offset: -4px;
+    /* outline: 4px solid var(--grey);
+    outline-offset: -4px; */
+    box-shadow: 0 0 0 2px var(--grey);
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
@@ -713,6 +713,7 @@ h5
     align-items: center;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
+    padding: 0 0 2px 2px;
     /* scroll-snap-type: x proximity; */
 }
 .product-container--slider::-webkit-scrollbar,
