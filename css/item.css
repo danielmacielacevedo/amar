@@ -806,6 +806,19 @@ h5
     text-decoration: line-through;
     color: grey;
 }
+
+/* current product size */
+.current-product1.none,
+.current-product2.none,
+.current-payment1.none,
+.current-payment2.none,
+.current-colors1.none,
+.current-colors2.none
+{
+    display: none;
+}
+
+/* size1 */
 .product1.none,
 .payment1.none,
 .product2.none,
@@ -823,20 +836,35 @@ h5
 .product8.none,
 .payment8.none,
 .product9.none,
-.payment9.none,
-.current-product1.none,
-.current-product2.none,
-.current-payment1.none,
-.current-payment2.none,
-.ppayment1.none,
-.ppayment2.none,
-.ppayment3.none,
-.ppayment4.none,
-.ppayment5.none
+.payment9.none
+{
+    display: none;
+}
+
+/* size2 */
+.product1_2.none,
+.payment1_2.none,
+.product2_2.none,
+.payment2_2.none,
+.product3_2.none,
+.payment3_2.none,
+.product4_2.none,
+.payment4_2.none,
+.product5_2.none,
+.payment5_2.none,
+.product6_2.none,
+.payment6_2.none,
+.product7_2.none,
+.payment7_2.none,
+.product8_2.none,
+.payment8_2.none,
+.product9_2.none,
+.payment9_2.none
 {
     display: none;
     /* transition: .3s; */
 }
+
 
 #out-of-stock
 {
