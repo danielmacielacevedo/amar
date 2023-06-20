@@ -23,10 +23,10 @@ productContent3_2.classList.add('none');
 productContent4_2.classList.add('none');
 productContent5_2.classList.add('none');
 
-paymentButton2_2.classList.add('none');
-paymentButton3_2.classList.add('none');
-paymentButton4_2.classList.add('none');
-paymentButton5_2.classList.add('none');
+// paymentButton2_2.classList.add('none');
+// paymentButton3_2.classList.add('none');
+// paymentButton4_2.classList.add('none');
+// paymentButton5_2.classList.add('none');
 
 let firstProduct_2 = false;
 
@@ -39,11 +39,11 @@ selectButton_2.addEventListener('click', () =>
                 productContent4_2.classList.add('none');
                 productContent5_2.classList.add('none');
 
-                paymentButton_2.classList.remove('none');
-                paymentButton2_2.classList.add('none');
-                paymentButton3_2.classList.add('none');
-                paymentButton4_2.classList.add('none');
-                paymentButton5_2.classList.add('none');
+                // paymentButton_2.classList.remove('none');
+                // paymentButton2_2.classList.add('none');
+                // paymentButton3_2.classList.add('none');
+                // paymentButton4_2.classList.add('none');
+                // paymentButton5_2.classList.add('none');
 
                 firstProduct_2 = true;
         } else {
@@ -52,10 +52,10 @@ selectButton_2.addEventListener('click', () =>
                 productContent4_2.classList.add('none');
                 productContent5_2.classList.add('none');
 
-                paymentButton2_2.classList.add('none');
-                paymentButton3_2.classList.add('none');
-                paymentButton4_2.classList.add('none');
-                paymentButton5_2.classList.add('none');
+                // paymentButton2_2.classList.add('none');
+                // paymentButton3_2.classList.add('none');
+                // paymentButton4_2.classList.add('none');
+                // paymentButton5_2.classList.add('none');
 
                 firstProduct_2 = false;
         }
@@ -69,11 +69,11 @@ selectButton2_2.addEventListener('click', () =>
         productContent4_2.classList.add('none');
         productContent5_2.classList.add('none');
 
-        paymentButton_2.classList.add('none');
-        paymentButton2_2.classList.remove('none');
-        paymentButton3_2.classList.add('none');
-        paymentButton4_2.classList.add('none');
-        paymentButton5_2.classList.add('none');
+        // paymentButton_2.classList.add('none');
+        // paymentButton2_2.classList.remove('none');
+        // paymentButton3_2.classList.add('none');
+        // paymentButton4_2.classList.add('none');
+        // paymentButton5_2.classList.add('none');
 
         
 
@@ -88,11 +88,11 @@ selectButton3_2.addEventListener('click', () =>
         productContent4_2.classList.add('none');
         productContent5_2.classList.add('none');
 
-        paymentButton_2.classList.add('none');
-        paymentButton2_2.classList.add('none');
-        paymentButton3_2.classList.remove('none');
-        paymentButton4_2.classList.add('none');
-        paymentButton5_2.classList.add('none');
+        // paymentButton_2.classList.add('none');
+        // paymentButton2_2.classList.add('none');
+        // paymentButton3_2.classList.remove('none');
+        // paymentButton4_2.classList.add('none');
+        // paymentButton5_2.classList.add('none');
         
         firstProduct_2 = false;
 });
@@ -105,11 +105,11 @@ selectButton4_2.addEventListener('click', () =>
         productContent4_2.classList.remove('none');
         productContent5_2.classList.add('none');
 
-        paymentButton_2.classList.add('none');
-        paymentButton2_2.classList.add('none');
-        paymentButton3_2.classList.add('none');
-        paymentButton4_2.classList.remove('none');
-        paymentButton5_2.classList.add('none');
+        // paymentButton_2.classList.add('none');
+        // paymentButton2_2.classList.add('none');
+        // paymentButton3_2.classList.add('none');
+        // paymentButton4_2.classList.remove('none');
+        // paymentButton5_2.classList.add('none');
 
         firstProduct_2 = false;
 });
@@ -122,11 +122,11 @@ selectButton5_2.addEventListener('click', () =>
         productContent4_2.classList.add('none');
         productContent5_2.classList.remove('none');
 
-        paymentButton_2.classList.add('none');
-        paymentButton2_2.classList.add('none');
-        paymentButton3_2.classList.add('none');
-        paymentButton4_2.classList.add('none');
-        paymentButton5_2.classList.remove('none');
+        // paymentButton_2.classList.add('none');
+        // paymentButton2_2.classList.add('none');
+        // paymentButton3_2.classList.add('none');
+        // paymentButton4_2.classList.add('none');
+        // paymentButton5_2.classList.remove('none');
 
         firstProduct_2 = false;
 });

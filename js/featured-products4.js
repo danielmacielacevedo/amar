@@ -14,13 +14,13 @@ const selectButton4 = document.querySelector('.select4');
 const productContent4 = document.querySelector('.product4');
 const paymentButton4 = document.querySelector('.payment4');
 
-productContent2.classList.add('none');
-productContent3.classList.add('none');
-productContent4.classList.add('none');
+// productContent2.classList.add('none');
+// productContent3.classList.add('none');
+// productContent4.classList.add('none');
 
-paymentButton2.classList.add('none');
-paymentButton3.classList.add('none');
-paymentButton4.classList.add('none');
+// paymentButton2.classList.add('none');
+// paymentButton3.classList.add('none');
+// paymentButton4.classList.add('none');
 
 let firstProduct = false;
 
@@ -32,10 +32,10 @@ selectButton.addEventListener('click', () =>
                 productContent3.classList.add('none');
                 productContent4.classList.add('none');
 
-                paymentButton.classList.remove('none');
-                paymentButton2.classList.add('none');
-                paymentButton3.classList.add('none');
-                paymentButton4.classList.add('none');
+                // paymentButton.classList.remove('none');
+                // paymentButton2.classList.add('none');
+                // paymentButton3.classList.add('none');
+                // paymentButton4.classList.add('none');
 
                 firstProduct = true;
         } else {
@@ -43,9 +43,9 @@ selectButton.addEventListener('click', () =>
                 productContent3.classList.add('none');
                 productContent4.classList.add('none');
 
-                paymentButton2.classList.add('none');
-                paymentButton3.classList.add('none');
-                paymentButton4.classList.add('none');
+                // paymentButton2.classList.add('none');
+                // paymentButton3.classList.add('none');
+                // paymentButton4.classList.add('none');
 
                 firstProduct = false;
         }
@@ -58,10 +58,10 @@ selectButton2.addEventListener('click', () =>
         productContent3.classList.add('none');
         productContent4.classList.add('none');
 
-        paymentButton.classList.add('none');
-        paymentButton2.classList.remove('none');
-        paymentButton3.classList.add('none');
-        paymentButton4.classList.add('none');
+        // paymentButton.classList.add('none');
+        // paymentButton2.classList.remove('none');
+        // paymentButton3.classList.add('none');
+        // paymentButton4.classList.add('none');
 
         
 
@@ -75,10 +75,10 @@ selectButton3.addEventListener('click', () =>
         productContent3.classList.remove('none');
         productContent4.classList.add('none');
 
-        paymentButton.classList.add('none');
-        paymentButton2.classList.add('none');
-        paymentButton3.classList.remove('none');
-        paymentButton4.classList.add('none');
+        // paymentButton.classList.add('none');
+        // paymentButton2.classList.add('none');
+        // paymentButton3.classList.remove('none');
+        // paymentButton4.classList.add('none');
         
         firstProduct = false;
 });
@@ -90,10 +90,10 @@ selectButton4.addEventListener('click', () =>
         productContent3.classList.add('none');
         productContent4.classList.remove('none');
 
-        paymentButton.classList.add('none');
-        paymentButton2.classList.add('none');
-        paymentButton3.classList.add('none');
-        paymentButton4.classList.remove('none');
+        // paymentButton.classList.add('none');
+        // paymentButton2.classList.add('none');
+        // paymentButton3.classList.add('none');
+        // paymentButton4.classList.remove('none');
 
         firstProduct = false;
 });
